@@ -1,0 +1,213 @@
+/* Form.css */
+
+.form-container {
+    display: flex;
+    height: 100vh;
+    background-color: rgba(27, 37, 64, 255);
+
+  }
+  /* Add these styles to your Form.css */
+
+
+
+  .contact-form-container{
+    padding-left: 8vw;
+    margin-top: 5vw;
+  }
+  .form-section {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .custom-top-left {
+    background-color: rgba(27, 37, 64, 255);
+  }
+  
+  .custom-bottom-left {
+    background-color: rgba(27, 37, 64, 255);
+  }
+  
+  .custom-top-right {
+    background-color: rgba(27, 37, 64, 255);
+  }
+  
+  .custom-bottom-right {
+    background-color: rgba(27, 37, 64, 255);
+  }
+  
+  .custom-form {
+    display: flex;
+    flex-direction: column;
+  }
+  .input-container {
+    position: relative;
+  }
+  .input-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-80%);
+    width: 12px; /* Adjust the icon width as needed */
+    height: 12px; /* Adjust the icon height as needed */
+  }
+  .custom-form-label {
+    margin-bottom: 5px;
+    color: transparent;
+  }
+  
+.custom-submit-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .custom-submit-button {
+    padding: 10px 20px;
+    background-color: 
+    rgba(0, 229, 161, 1);
+    color: white;
+    border: none;
+    /* border-radius: 4px; */
+    width: 35%;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .custom-submit-button:hover {
+    background-color: #ffffff;
+  }
+  .custom-form-input {
+    padding: 8px 30px 8px 40px;
+    margin-bottom: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: rgba(27, 37, 64, 255); /* New background color */
+    color: #ffffff; /* New text color */
+    width: 20vw; /* Increase the input box width */
+
+  }
+  .custom-form-input::placeholder {
+    color: #ffffff; /* Placeholder text color */
+    font-family: "Poppins", sans-serif;
+    font-size: 9px;
+    font-weight: 200;
+  }
+  
+  .custom-image-container-form {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  .footer-down{
+    width: 100vw;
+    margin-top: -8vw;
+    margin-left: -70vh;
+  }
+  .footer-down img {
+    width: 100%;
+  }
+  
+  .custom-image {
+    max-height: 100%;
+    width: 50vw;
+    margin-top: 8vw;
+    margin-right: 1vw;
+  }
+  
+  .custom-contact-details {
+    background-color: rgba(27, 37, 64, 255);
+    color: white;
+    text-align: left;
+  }
+  
+  .custom-text-container-contact {
+    max-width: 400px;
+    margin: 0 auto;
+    padding-bottom: 3vw;
+  }
+  .custom-paragraph{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: rgba(165, 165, 165, 1);
+    font-size: 12px;
+  }
+  .custom-title {
+    font-size: 50px;
+    font-family: Gabriela;
+    font-weight:500 ;
+  }
+  
+  .custom-para {
+    margin-top: 10px;
+  }
+  
+  .custom-fade-effect {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background:radial-gradient(
+        circle,
+        transparent 0%,
+        transparent 15%,
+        rgba(27, 37, 64, 0.8) 85%,
+        rgba(27, 37, 64, 0.8) 100%
+      );
+    pointer-events: none; /* Allows interactions with elements behind the fade effect */
+  }
+  
+  @media (max-width: 768px) {
+    .form-container {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .form-section {
+      padding: 10px;
+    }
+  
+    .custom-top-left,
+    .custom-bottom-left,
+    .custom-top-right,
+    .custom-bottom-right {
+      background-color: rgba(27, 37, 64, 255);
+    }
+    .custom-form-input{
+        width: 60vw;
+    }
+  
+    .custom-image-container-form {
+      margin: 10px 0;
+      height: auto;
+    }
+  
+    .custom-image {
+      max-height: 100%;
+      width: 100vw;
+    }
+    .custom-submit-button {
+        /* padding: 10px 20px; */
+        background-color: 
+        rgba(0, 229, 161, 1);
+        color: white;
+        border: none;
+        /* border-radius: 4px; */
+        width: 25%;
+        font-size: 12px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      .custom-title {
+        font-size: 20px;
+        font-family: Gabriela;
+        font-weight:500 ;
+      }
+  }
+  

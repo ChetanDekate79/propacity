@@ -1,0 +1,258 @@
+/* src/styles/overview.css */overview-container
+
+.overview-container {
+    background-color: rgba(27, 37, 64, 255);
+    /* height: 100vh; */
+    margin-top: -1vh;
+  }
+  
+  .overview-subclass {
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    background-color: rgba(27, 37, 64, 255);
+margin-top: -1.5vw;
+  }
+  
+  .subclass-main-text {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin-bottom: 4vh;
+  }
+  
+  .overview-search {
+    background-color: white;
+    border-radius: 1vw;
+    /* padding: 1.5vh 2vh; Adjust padding as needed */
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: space-between; /* Distribute space between items */
+    flex-wrap: wrap; /* Allow content to wrap on smaller screens */
+  }
+  
+  
+  .icon-name {
+    display: contents;
+    align-items: center; /* Center content vertically */
+    justify-content: flex-start; /* Adjust content alignment */
+    color: #333; /* Set the text color */
+    font-weight: 500; /* Set the text font weight */
+    font-size: 1.2rem; /* Adjust font size as needed */
+    margin-top: 1vh; /* Add margin to the top of the icon-name */
+    margin-bottom: 1vh; /* Add margin to the bottom of the icon-name */
+    flex: 1; /* Distribute available space evenly */
+    position: relative; /* Add this to position the image relative to this container */
+    overflow: hidden; /* Hide any overflowing content */
+  }
+
+  .icon-name-box {
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: flex-start; /* Adjust content alignment */
+    color: #333; /* Set the text color */
+    font-weight: 500; /* Set the text font weight */
+    font-size: 1.2rem; /* Adjust font size as needed */
+    margin-top: 1vh; /* Add margin to the top of the icon-name */
+    margin-bottom: 1vh; /* Add margin to the bottom of the icon-name */
+    flex: 1; /* Distribute available space evenly */
+    position: relative; /* Add this to position the image relative to this container */
+    overflow: hidden; /* Hide any overflowing content */
+  }
+  .overlay-image{
+    margin-right: 1vw;
+    margin-top: 0.3vw;
+  }
+  
+  .icon-name img {
+    /* margin-right: 1rem; Add space between icon and text */
+    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+  }
+  
+  .text {
+    flex: 2; /* Distribute available space evenly */
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .main-text {
+    font-size: 1rem; /* Adjust font size for main text */
+    font-family: "Poppins", sans-serif;
+    color: #b0b0b0; /* Set color for main text */
+  }
+  .main-text-box {margin-top: 3vw;
+    font-size: 3rem; /* Adjust font size for main text */
+    font-family: Gabriela;
+    color: rgba(0, 229, 161, 1); /* Set color for main text */
+    font-weight: 500;
+  }
+  
+  .sub-text {
+    font-size: 1.2rem; /* Adjust font size for subtext */
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    color: #303030; /* Set color for subtext */
+  }
+  .sub-text-box {
+    font-size: 10px; /* Adjust font size for subtext */
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 1); /* Set color for subtext */
+  }
+
+  
+  .overview-content {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center horizontally */
+    /* max-width: 1200px; */
+    background-color: rgba(27, 37, 64, 255);
+    padding-left: 8%;   
+    padding-right: 8%; 
+    padding-bottom: 8%;
+    margin: 0 auto; /* Center the entire section */
+  }
+  /* Add this style to your CSS */
+.bullet-list {
+    list-style: disc; /* Use bullet points */
+   
+    color: #b0b0b0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+  }
+  
+  
+  .image-container {
+    flex: 1;
+    padding: 10px;
+    max-width: 50%; /* Limit the width of the image container */
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    max-height: 60vh; /* Adjust the max-height as needed */
+    display: block;
+  }
+  .content-span{
+    font-size: 14px;
+    color: rgba(0, 229, 161, 1);
+    ;
+  }
+
+  .text-container {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .title {
+    font-size: 3.1rem;
+    color: white;
+    font-family: Gabriela; /* Apply Gabriela font */
+    margin-bottom: 10px;
+  }
+  /* Add this style to your CSS */
+  .upper-border-box {
+    border-top: 2px solid rgba(165, 165, 165, 1); /* Add a solid border on the top side */
+    /* margin-top: 20px; Add some spacing above the box */
+    height: 20vw;
+    border-width: 0.2vh;
+    align-items: center;
+    background-color: rgba(27, 37, 64, 255);
+    /* width: 80vw; */
+    /* margin-left: 10vw; */
+    padding: 10vw;    
+  }
+  
+  .paragraph {
+    font-size: 1rem;
+    color: #b0b0b0;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+  }
+  /* Add this style to your CSS */
+.horizontal-line {
+    border: none; /* Remove default border */
+    border-top: 2px solid #b0b0b0; /* Add a solid line with color */
+    margin-top: 10px; /* Add some spacing above the line */
+  }
+  
+  
+  /* Media query for screens smaller than 768px (typical smartphones) */
+  @media (max-width: 768px) {
+    .overview-subclass {
+      padding-top: 8vh;
+      padding-bottom: 8vh;
+    }
+    .overview-container {
+      background-color: rgba(27, 37, 64, 255);
+      /* height: 100vh; */
+      margin-top: -1vh;
+    }
+    .icon-name {
+      font-size: 1rem; /* Adjust font size for smaller screens */
+      /* Reduce right margin for smaller screens */
+      margin-left: 0.5vw;
+    }
+    
+    .icon-name .text {
+      margin-left: 1vw; /* Adjust margin for smaller screens */
+    }
+    
+    .main-text {
+      font-size: 0.3rem; /* Adjust font size for smaller screens */
+    }
+    .main-text-box {
+        font-size: 1rem; /* Adjust font size for smaller screens */
+      }
+    .title {
+        font-size: 1.2rem; /* Adjust font size for smaller screens */
+      }
+    .sub-text {
+      font-size: 0.1rem; /* Adjust font size for smaller screens */
+    }
+    .sub-text-box {
+        font-size: 0.3rem; /* Adjust font size for smaller screens */
+      }
+    .image-container {
+        max-width: 60%; /* Allow the image container to take full width on smaller screens */
+      }
+      .image-container img {
+        width: 50vw;
+        height: 35vw; /* Adjust the max-height as needed */
+        display: block;
+      }
+      .bullet-list {
+        font-size: 8px;
+      }
+      .paragraph {
+        font-size: 8px;
+        color: #b0b0b0;
+        font-family: "Poppins", sans-serif;
+        line-height: 1.5;
+      }
+      .title {
+        font-size: 15px;
+        color: white;
+        font-family: Gabriela; /* Apply Gabriela font */
+        margin-bottom: 10px;
+      }
+      .content-span{
+        font-size: 4px;
+        color: rgba(0, 229, 161, 1);
+        ;
+      }
+      .subclass-main-text {
+        color: white;
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-size: 0.4rem;
+        margin-bottom: 4vw;
+      }
+      .icon-name img{
+        width: 4vw;
+      }
+  }
+  

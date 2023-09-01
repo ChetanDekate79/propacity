@@ -1,0 +1,45 @@
+.service-main{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+}
+.service-content{
+    margin-top: 10vw;
+}
+.service-span{
+    font-size: 14px;
+    color: rgba(0, 229, 161, 1);
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    top: 10vw;
+}
+.service-main h3 {
+    font-family: Gabriela;
+    font-size: 70px;
+    font-weight: 500;
+    margin-top: 0.3vw;
+}
+.image-container-service{
+    width: 100vw;
+}
+.image-container-service img {
+    width: 100vw;
+    height: 70vw;
+   
+}
+
+@media (max-width: 768px) {
+    .service-main h3 {
+        font-size: 20px;
+    }
+    .service-span{
+        font-size: 8px;
+    }
+    .image-container-service img {
+        width: 100vw;
+        height: 70vw;
+       
+    }
+}

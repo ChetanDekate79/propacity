@@ -1,0 +1,191 @@
+.contact-container {
+    background-color: rgba(27, 37, 64, 255);
+    /* height: 100vh; */
+    margin-top: -1vh;
+  }
+  .service-main-contact{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+}
+.service-main-contact-sub {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: auto;
+    padding: 5vh;
+    /* border-bottom: 2px solid rgba(165, 165, 165, 1); Add the desired border color and thickness */
+}
+.contact-details {
+    position: relative;
+    background-image: src('public/images/image_4.jpg');
+    background-position: right bottom;
+    background-size: cover;
+    color: white;
+    padding: 20px;
+}
+
+.text-container-contact {
+    text-align: center;
+}
+  .text-container {
+    flex: 1;
+    padding-left: 5vw;
+    padding-top: 2vw;
+  }
+  .text-container-contact {
+    flex: 1;
+    padding-left: 12vw;
+    padding-top: 2vw;
+  }
+  .title {
+    font-size: 3.1rem;
+    color: white;
+    font-family: 
+    New York Large; /* Apply Gabriela font */
+    margin-bottom: 10px;
+    font-weight: 400;
+  }
+  .text-contact {
+    flex: 2; /* Distribute available space evenly */
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .paragraph {
+    font-size: 1rem;
+    color: #b0b0b0;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+  }
+.para{
+    width: 40vw;
+}
+.service-span{
+    font-size: 12px;
+    color: rgba(0, 229, 161, 1);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    top: 10vw;
+}
+.service-main-contact h3 {
+    font-family: Gabriela;
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 0.3vw;
+    color: white;
+}
+.upper-border-box {
+    /* border-bottom: 2px solid rgba(165, 165, 165, 1); Add a solid border on the top side */
+    height: 20vw;
+    border-width: 0.2vh;
+    align-items: center;
+    background-color: rgba(27, 37, 64, 255);
+    padding-bottom: 10vw;    
+  }
+  .lower-border-contact {
+    /* border-bottom: 2px solid #000; Add the desired border color and thickness */
+    top: -3vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.service-main-contact-sub {
+    display: flex;
+    justify-content: space-between; /* Add space between columns */
+}
+
+.text-contact-column {
+    flex: 1;
+    padding: 10px; /* Add space around the column content */
+}
+
+.bullet-point {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Add space between bullet points */
+}
+
+.bullet-point::before {
+    content: "•"; /* Use the bullet point character */
+    color: rgba(0, 229, 161, 1);
+    margin-right: 5px;
+}
+/* ... your existing styles ... */
+
+.bullet-point {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.bullet-content {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.sub-text-box {
+    font-size: 12px;
+    color: #555;
+    font-family: poppins;
+    margin-top: 5px;
+}
+.main-text-box-contact{
+    color: white;
+    font-family: poppins;
+    font-size: 28px;
+}
+
+.contact-details{
+    background-color: rgba(27, 37, 64, 255);
+}
+
+  @media (max-width: 768px) {
+    .title {
+        font-size: 1.2rem; /* Adjust font size for smaller screens */
+      }
+      .paragraph {
+        font-size: 8px;
+        color: #b0b0b0;
+        font-family: "Poppins", sans-serif;
+        line-height: 1.5;
+      }
+      .service-main-contact h3 {
+        font-family: Gabriela;
+        font-size: 14px;
+        font-weight: 500;
+        margin-top: 0.3vw;
+        color: white;
+    }
+    .service-span{
+        font-size: 4px;
+        color: rgba(0, 229, 161, 1);
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        top: 10vw;
+    }
+    .title {
+        font-size: 1rem;
+        color: white;
+        font-family: 
+        New York Large; /* Apply Gabriela font */
+        margin-bottom: 10px;
+        font-weight: 400;
+      }
+      .para{
+        width: 50vw;
+      }
+      .main-text-box-contact{
+        font-size: 10px;
+      }
+      .sub-text-box {
+    font-size: 6px;
+    color: #555;
+    font-family: poppins;
+    margin-top: 5px;
+}
+  }
